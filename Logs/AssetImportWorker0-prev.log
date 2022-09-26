@@ -1,0 +1,384 @@
+Unity Editor version:    2021.3.7f1 (24e8595d6d43)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yitongjin/unsw/4ds/new_grab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60547
+Successfully changed project path to: /Users/yitongjin/unsw/4ds/new_grab
+/Users/yitongjin/unsw/4ds/new_grab
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 227.71 ms, found 6 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 3.66 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yitongjin/unsw/4ds/new_grab/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56955
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002599 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 143.85 ms, found 6 plugins.
+Plugins: Couldn't open /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.33 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1825ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1331ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (903ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (200ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (204ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yitongjin/unsw/4ds/new_grab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yitongjin/unsw/4ds/new_grab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
+Plugins: Couldn't open /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.90 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2930ms)
+		BeginReloadAssembly (373ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (2250ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1042ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 6 plugins.
+Plugins: Couldn't open /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.22 ms.
+Unloading 4701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (217.6 KB). Loaded Objects now: 5137.
+Memory consumption went from 294.3 MB to 294.1 MB.
+Total: 6.781083 ms (FindLiveObjects: 0.275250 ms CreateObjectMapping: 0.138959 ms MarkObjects: 3.558375 ms  DeleteObjects: 2.805458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91340.245919 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRAudioSourceTest.cs
+  artifactKey: Guid(358b12a21a8aa9540b435051f334fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRAudioSourceTest.cs using Guid(358b12a21a8aa9540b435051f334fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92efbc5fca9fca206e9f3e65651ea0') in 0.443904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs
+  artifactKey: Guid(3b56515a831f2fb44bc7ae02679aeebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs using Guid(3b56515a831f2fb44bc7ae02679aeebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9f3a6e9266fbca7db5f3c85f57a3b4') in 0.002158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.382755 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs
+  artifactKey: Guid(02d61468f8b77ae4b92c344bc9a600fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs using Guid(02d61468f8b77ae4b92c344bc9a600fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094f55bec2a3480c6ad6c6a5f7fd5105') in 0.001522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.984560 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs
+  artifactKey: Guid(fd425c2d06f39bf4899d07c05d0f10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs using Guid(fd425c2d06f39bf4899d07c05d0f10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fbaa6b334f0ac9b11fd6cf572bd73b') in 0.001647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.146220 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRCustomSkeleton.cs
+  artifactKey: Guid(674a40251fe8ad841b18517ac5209957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRCustomSkeleton.cs using Guid(674a40251fe8ad841b18517ac5209957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaef282b07ed969e6012a7c4ba64b9a') in 0.001583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.784582 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRCursor.cs
+  artifactKey: Guid(f2233ce673fcb9f41bd0753f867b7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRCursor.cs using Guid(f2233ce673fcb9f41bd0753f867b7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f9723624e7c6be0e323da3f0b3cc73') in 0.001407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.675972 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs
+  artifactKey: Guid(7a489178b0acf0147846b3873447beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs using Guid(7a489178b0acf0147846b3873447beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ca0cb76eeb6e954f88e7679850c3f8') in 0.002091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.042755 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRHand.cs
+  artifactKey: Guid(cb7623a8f0b49cf4dbaa40aea4d4be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRHand.cs using Guid(cb7623a8f0b49cf4dbaa40aea4d4be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b8b09311a4f7bfc0037ea0a9453624') in 0.001480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.542441 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRHandTest.cs
+  artifactKey: Guid(12a1e4a79af8fe849b7a2769ff0d3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRHandTest.cs using Guid(12a1e4a79af8fe849b7a2769ff0d3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbcf4f6c8133f1745e070e8b6482661') in 0.001757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.249223 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs
+  artifactKey: Guid(8f1a9a1d119a5944aacfb87d1ec283a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs using Guid(8f1a9a1d119a5944aacfb87d1ec283a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47f3ec74ccf4e1b4c31fbe4a5cae5e') in 0.001813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.085283 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRRuntimeController.cs
+  artifactKey: Guid(ed24508d182abcf4ba02d983e302d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRRuntimeController.cs using Guid(ed24508d182abcf4ba02d983e302d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea7ce0ce9b09178f21e8a8ecc46e3ac') in 0.007934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.235626 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs
+  artifactKey: Guid(4f07515ada089df47868559a20dd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs using Guid(4f07515ada089df47868559a20dd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd912ba565247c8c0618c23c1250f1a72') in 0.001931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.804248 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs
+  artifactKey: Guid(df8e1d778abf442e4bec449c360e9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs using Guid(df8e1d778abf442e4bec449c360e9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aef8579b38170311d7d9ccd0cf4077c') in 0.001867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.974042 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRSkeleton.cs
+  artifactKey: Guid(2609c54f376cffc4da1ab9401cc1a36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRSkeleton.cs using Guid(2609c54f376cffc4da1ab9401cc1a36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5cc8d23a8d29b7207b4cf9123d5232') in 0.002041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755022 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRSkeletonRenderer.cs
+  artifactKey: Guid(54c16b381e28e8d479237771d234dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRSkeletonRenderer.cs using Guid(54c16b381e28e8d479237771d234dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0621215359032b2107b398ccc243e37') in 0.001783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.159517 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRSpectatorModeDomeTest.cs
+  artifactKey: Guid(c4f8903397a67414fbb142fa1bfacede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRSpectatorModeDomeTest.cs using Guid(c4f8903397a67414fbb142fa1bfacede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eadbfd4f2bb101355e92bae8b5a1b22') in 0.001805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.769582 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRSystemPerfMetrics.cs
+  artifactKey: Guid(a987a7ebe2d568f459dab8dfb866479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRSystemPerfMetrics.cs using Guid(a987a7ebe2d568f459dab8dfb866479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c889a182a3a1b4c32d33255da4fdb6b3') in 0.001658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.119067 seconds.
+  path: Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs
+  artifactKey: Guid(b71d1996d67004241a3b69960856ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs using Guid(b71d1996d67004241a3b69960856ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8075cc766f23b12185f01bd52f9e1e2d') in 0.001752 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yitongjin/unsw/4ds/new_grab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yitongjin/unsw/4ds/new_grab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 6 plugins.
+Plugins: Couldn't open /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 3.77 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3153ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2539ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (486ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1563ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (74ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (1203ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 6 plugins.
+Plugins: Couldn't open /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/yitongjin/unsw/4ds/new_grab/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.56 ms.
+Unloading 4613 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (186.4 KB). Loaded Objects now: 5142.
+Memory consumption went from 291.0 MB to 290.9 MB.
+Total: 3.842584 ms (FindLiveObjects: 0.274292 ms CreateObjectMapping: 0.155458 ms MarkObjects: 3.225291 ms  DeleteObjects: 0.186167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 581.755070 seconds.
+  path: Assets/OnClick.cs
+  artifactKey: Guid(c9ac667c5ebef47e8b56bcf6c6c5b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OnClick.cs using Guid(c9ac667c5ebef47e8b56bcf6c6c5b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c81a41f415be10332e52e5c463aabc0') in 0.057810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.376191 seconds.
+  path: Assets/temp.cs
+  artifactKey: Guid(e084e2d91f3c142999c886f587c369f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/temp.cs using Guid(e084e2d91f3c142999c886f587c369f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0038cbb6f11788de3cd992566fe8059c') in 0.005300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.265045 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(4d87e5f405b1c40d09e9afd11fc39ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(4d87e5f405b1c40d09e9afd11fc39ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a26a6a76f74bf96f724a7bf3879086f') in 0.024722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.747398 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(4d87e5f405b1c40d09e9afd11fc39ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(4d87e5f405b1c40d09e9afd11fc39ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984bebfc12c11dc1ce2935b31f52c913') in 0.014941 seconds 
